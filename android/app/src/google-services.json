@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "883599287294",
+    "project_id": "coininfos-8e80c",
+    "storage_bucket": "coininfos-8e80c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883599287294:android:19eb9cf6bfa0bdddaed6af",
+        "android_client_info": {
+          "package_name": "coininfos.herokuapp.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883599287294-mc0fdts2fvmrv1njkcra6q0g68r17nv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsqDTaP0y5rbNHN3DH_wxFXGMaczE5CP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883599287294-mc0fdts2fvmrv1njkcra6q0g68r17nv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
