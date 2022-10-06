@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
                   return const Dashboard();
                 }
                 // Otherwise, they're not signed in. Show the sign in page.
-                return SignIn();
+                return const SignIn();
               }),
         ),
       ),
