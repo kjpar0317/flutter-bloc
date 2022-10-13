@@ -2,7 +2,7 @@ import 'package:meta/meta.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 
-import 'package:ncoininfos/app/cores/auth_repository.dart';
+import 'package:ncoininfos/app/core/auth_repository.dart';
 
 part 'auth_event.dart';
 part 'auth_state.dart';
