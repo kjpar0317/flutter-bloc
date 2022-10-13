@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-import 'package:ncoininfos/blocs/auth/auth_bloc.dart';
-import 'package:ncoininfos/views/auth/sign_in.dart';
+import 'package:ncoininfos/app/blocs/auth/auth_bloc.dart';
+import 'package:ncoininfos/app/views/auth/sign_in.dart';
 
 class Dashboard extends StatelessWidget {
   const Dashboard({Key? key}) : super(key: key);
@@ -11,7 +11,14 @@ class Dashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Getting the user from the FirebaseAuth Instance
-    final user = FirebaseAuth.instance.currentUser!;
+    User? user = FirebaseAuth.instance.currentUser;
+
+    // ignore: unrelated_type_equality_checks
+    if (user == null) {
+      // return Container();
+      return Container();
+    }
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Dashboard'),

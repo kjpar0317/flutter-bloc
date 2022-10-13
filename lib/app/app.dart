@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-import 'package:ncoininfos/cores/auth_repository.dart';
-import 'package:ncoininfos/blocs/auth/auth_bloc.dart';
-import 'package:ncoininfos/views/dashboard/dashboard.dart';
-import 'package:ncoininfos/views/auth/sign_in.dart';
+import 'package:ncoininfos/app/cores/auth_repository.dart';
+import 'package:ncoininfos/app/blocs/auth/auth_bloc.dart';
+import 'package:ncoininfos/app/views/dashboard/dashboard.dart';
+import 'package:ncoininfos/app/views/auth/sign_in.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
